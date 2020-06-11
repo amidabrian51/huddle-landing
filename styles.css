@@ -13,6 +13,9 @@ h2 {
 body {
     padding: 0;
     margin: 0;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    height: 100vh;
 }
 .build-community {
     line-height: normal;
@@ -21,9 +24,9 @@ body {
     display: flex;
     /* flex-direction: column; */
    color: white;
-   background-color: hsl(257, 40%, 49%);
-   background-image: url("./images/bg-desktop.svg");
-   height: 100vh;
+   
+   
+   
 }
 .header-title {
     padding-bottom: 70px;
@@ -31,7 +34,7 @@ body {
 .company-heading{
     width: 50%;
     padding-top: 15vh;
-    padding-left: 150px;
+    padding-left: 75px;
 }
 
 .huddle-content {
@@ -67,7 +70,9 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-top: 300px;
+    padding-top: 250px;
+    padding-left: 100px;
+  
 }
 
 .social-media {
