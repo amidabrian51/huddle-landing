@@ -7,14 +7,16 @@ h1{
 }
 h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600; 
 }
 body {
     padding: 0;
     margin: 0;
 }
-
+.build-community {
+    line-height: normal;
+}
 #content{
     display: flex;
     /* flex-direction: column; */
@@ -24,7 +26,7 @@ body {
    height: 100vh;
 }
 .header-title {
-    display: flex;
+    padding-bottom: 70px;
 }
 .company-heading{
     width: 50%;
@@ -33,6 +35,7 @@ body {
 }
 
 .huddle-content {
+    padding: 30px 0 30px 0;
     width: 40%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -65,4 +68,52 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 300px;
+}
+
+@media only screen and (max-width: 375px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+        background-image: url("./images/bg-desktop.svg");
+        height: fit-content;
+    }
+    .company-heading{ 
+        padding-top: 30px;
+        padding-left: 75px;
+    }
+   .image-mockup {
+       width: 250%;
+   }
+   .community {
+       display: flex;
+       flex-direction: column;
+       padding: 20px 0px 10px 80px; 
+   }
+   .huddle-button {
+       height: 50vh;
+   }
+   .build-community {
+       width: 60vh;
+   }
+   .huddle-content {
+    display: flex;
+    justify-content: center;
+     font-size: medium;
+     font-weight: 400;
+     width: 50vh;
+   }
 }
