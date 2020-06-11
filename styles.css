@@ -132,6 +132,10 @@ body {
    }
    .social-media {
        display: flex;
+       position: relative;
+      top: 25px;
+      left: 5px;
+      height: 20vh;
    }
    .fab {
     padding: 30px;
