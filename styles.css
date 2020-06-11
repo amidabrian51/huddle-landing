@@ -70,6 +70,20 @@ body {
     padding-top: 300px;
 }
 
+.social-media {
+  position: relative;
+  top: 250px;
+  left: 350px
+}
+.fab {
+    padding: 40px;
+    font-size: 35px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
 @media only screen and (max-width: 375px) {
     * {
         box-sizing: border-box;
@@ -88,7 +102,7 @@ body {
         flex-direction: column;
         color: white;
         background-color: hsl(257, 40%, 49%);
-        background-image: url("./images/bg-desktop.svg");
+        background-image: url("./images/bg-mobile.svg");
         height: fit-content;
     }
     .company-heading{ 
