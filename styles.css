@@ -92,6 +92,8 @@ body {
         padding: 0;
         margin: 0;
         height: 100vh;
+        background-image: url("./images/bg-mobile.svg");
+        max-width: 1440px;
     }
 
     h2 {
@@ -102,7 +104,7 @@ body {
         flex-direction: column;
         color: white;
         background-color: hsl(257, 40%, 49%);
-        background-image: url("./images/bg-mobile.svg");
+        
         height: fit-content;
     }
     .company-heading{ 
@@ -115,7 +117,8 @@ body {
    .community {
        display: flex;
        flex-direction: column;
-       padding: 20px 0px 10px 80px; 
+       justify-content: flex-end;
+       /* padding: 50px 0px 10px 20px;  */
    }
    .huddle-button {
        height: 50vh;
