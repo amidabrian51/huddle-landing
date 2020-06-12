@@ -18,6 +18,9 @@ body {
     height: 100vh;
     max-width: 1440px;
 }
+img {
+    max-width: 100%;
+}
 .build-community {
     line-height: normal;
 }
@@ -25,9 +28,6 @@ body {
     display: flex;
     /* flex-direction: column; */
    color: white;
-   
-   
-   
 }
 .header-title {
     padding-bottom: 70px;
@@ -71,15 +71,15 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-top: 250px;
-    padding-left: 200px;
+    justify-content: space-between;
+    /* padding-top: 250px;
+    padding-left: 100px; */
   
 }
 
 .social-media {
-  position: relative;
-  top: 250px;
-  left: 350px
+  display: flex;
+  justify-content: flex-end;
 }
 .fab {
     padding: 40px;
