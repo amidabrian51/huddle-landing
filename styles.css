@@ -26,6 +26,7 @@ img {
 }
 #content{
     display: flex;
+    
     /* flex-direction: column; */
    color: white;
 }
@@ -72,8 +73,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* padding-top: 250px;
-    padding-left: 100px; */
+    padding-top: 250px;
+    /* padding-left: 100px; */ 
   
 }
 
