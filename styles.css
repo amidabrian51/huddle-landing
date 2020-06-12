@@ -16,6 +16,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url("./images/bg-desktop.svg");
     height: 100vh;
+    max-width: 1440px;
 }
 .build-community {
     line-height: normal;
@@ -98,11 +99,11 @@ body {
         margin: 0;
         height: 100vh;
         background-image: url("./images/bg-mobile.svg");
-        max-width: 1440px;
+      
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 24px;
     }
     #content {
         display: flex;
@@ -113,30 +114,33 @@ body {
         height: fit-content;
     }
     .company-heading{ 
-        padding-top: 30px;
-        padding-left: 75px;
+        padding-top: 20px;
+        padding-left: 45px;
     }
    .image-mockup {
-       width: 250%;
+       width: 200%;
    }
    .community {
        display: flex;
        flex-direction: column;
-       justify-content: flex-end;
-       /* padding: 50px 0px 10px 20px;  */
+       justify-content: center;
+       padding: 50px 0px 10px 20px; 
    }
    .huddle-button {
-       height: 50vh;
+       height: 40vh;
    }
    .build-community {
-       width: 60vh;
+       margin-left: 30px;
+       width: 50vh;
    }
    .huddle-content {
     display: flex;
     justify-content: center;
      font-size: medium;
      font-weight: 400;
-     width: 50vh;
+     width: 35vh;
+     margin-left: 30px;
+     padding-bottom: 10px;
    }
    .social-media {
        display: flex;
@@ -152,5 +156,8 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+  }
+  .myButton {
+      margin-left: 30px;
   }
 }
