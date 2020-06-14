@@ -16,32 +16,23 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url("./images/bg-desktop.svg");
     height: 100vh;
-    max-width: 1440px;
+    color: white;
 }
 img {
     max-width: 100%;
 }
+.container {
+    width: min(90%, 1400px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
 .build-community {
     line-height: normal;
-}
-#content{
-    display: flex;
-    
-    /* flex-direction: column; */
-   color: white;
-}
-.header-title {
-    padding-bottom: 70px;
-}
-.company-heading{
-    width: 50%;
-    padding-top: 15vh;
-    padding-left: 75px;
 }
 
 .huddle-content {
     padding: 30px 0 30px 0;
-    width: 70vh;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
    
@@ -69,13 +60,16 @@ img {
 	top:1px;
 } */
 .community {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 250px;
+    flex: 1;
+    
     /* padding-left: 100px; */ 
   
+}
+.company-heading {
+    flex: 1;
 }
 
 .social-media {
